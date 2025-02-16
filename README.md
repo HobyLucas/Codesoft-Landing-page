@@ -3,4 +3,4 @@ this is a codsoft project, the landing page from the level 1 tasks. A basic web 
 
 viewed in:
 
-https://codesoft-landing-page-bay.vercel.app/
+https://darkeagle.vercel.app/
