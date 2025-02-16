@@ -82,7 +82,7 @@ html {
 
 .navbar-b.navbar-reduce {
     transition: all .5s ease-in-out;
-    background-color: #1B1B1B;
+    background-color: #ffd700;
     padding-top: 15px;
     padding-bottom: 15px;
 }
@@ -92,7 +92,7 @@ html {
 }
 
 .navbar-b.navbar-reduce .nav-link:before {
-    background-color: #1d1d1d;
+    background-color: #ffd700;
 }
 
 .navbar-b.navbar-reduce .nav-link:hover {
@@ -139,13 +139,13 @@ html {
 }
 
 .navbar-b .dropdown-menu .dropdown-item:hover {
-    background-color: #1d1d1d;
+    background-color: #ffd700;
     color: #fff;
     transition: all 500ms ease;
 }
 
 .navbar-b .dropdown-menu .dropdown-item.active {
-    background-color: #1d1d1d;
+    background-color: #ffd700;
 }
 
 /*--/ Hamburger Navbar /--*/
@@ -547,3 +547,92 @@ footer {
     font-size: 19px;
 }
 /* footer section end */
+
+
+/* responsive design start */
+
+@media (max-width: 1000px) {
+    .hero {
+        height: auto;
+    }
+
+    .slider_section {
+        padding-top: 30%;
+        padding-bottom: 75px;
+    }
+
+    .slider_section {
+        background-size: cover;
+        background-position: left;
+    }
+
+    .slider_section .carousel-indicators {
+
+        height: 100%;
+    }
+
+}
+
+@media (max-width: 768px) {
+
+    .slider_section {
+        padding-left: 0;
+    }
+
+    .slider_section .detail-box {
+        text-align: center;
+    }
+
+    .slider_section .carousel-indicators {
+        display: none;
+    }
+
+    .slider_section .custom_carousel-control {
+        display: none;
+    }
+
+    #about,
+    #join {
+        flex-direction: column;
+    }
+
+    #objectives {
+        flex-direction: column-reverse;
+    }
+
+    #about .details,
+    #join .details-container  {
+        width: 100%;
+    }
+
+    #join .details-container .ttl,
+    #join .details-container .fa {
+        margin: 0;
+    }
+
+    #join .details-container {
+        text-align: center;
+    }
+
+    #join .details-container .box-container {
+        text-align: justify;
+        width: 100%;
+    }
+
+    #objectives .img-container,
+    #join .img-container {
+        margin: 0 auto;
+        width: 90%;
+    }
+
+    #leaderWords {
+        width: 80%;
+    }
+
+    #objectives .img-container img {
+        width: 100%;
+    }
+
+}
+
+/* responsive design end */
